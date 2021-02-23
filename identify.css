@@ -1,0 +1,283 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #19181A;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #19181A;
+}
+
+/* fonts used */
+@font-face {
+  font-family: Novus-Bold;
+  src: url(Novus-Bold.otf);
+}
+
+@font-face {
+  font-family: Novus-Bold-Italic;
+  src: url(Novus-Bold-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Italic;
+  src: url(Novus-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Light;
+  src: url(Novus-Light.otf);
+}
+
+@font-face {
+  font-family: Novus-Light-Italic;
+  src: url(Novus-Light-Italic.otf);
+}
+
+@font-face {
+  font-family: Novus-Regular;
+  src: url(Novus-Regular.otf);
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+#header {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: #19181A;
+}
+
+#title {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: justify;
+  display: inline-block;
+  color: #e1e6e2;
+  width: 40%;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+h1 {
+  font-family: Novus-Bold;
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: Novus-Bold;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sections {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  font-family: Novus-Regular;
+  font-size: 20px;
+  color: #e1e6e2;
+  position: relative;
+  width: 55%;
+}
+
+#sections a {
+  display: inline-block;
+  padding: 20px;
+}
+
+a:link {
+  color: #e1e6e2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e1e6e2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ab68e3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+#current-section {
+  font-family: Novus-Bold;
+}
+
+#main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #19181A;
+}
+
+#cover {
+  width: 100%;
+  height: 800px;
+  background-color: #dfdae3;
+  top: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+#cover img {
+  display: inline-block;
+  width: 30%;
+}
+
+#identify {
+  font-family: Novus-Bold;
+  color: #eae8eb;
+  font-size: 144px;
+  transform: rotate(-90deg);
+  height: 700px;
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+  white-space: nowrap;
+  display: inline-block;
+  top: 300px;
+}
+
+#abuse {
+  height: 100%;
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+}
+
+#types {
+  width: 100%;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Novus-Bold;
+  font-size: 72px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#types h4 {
+  color: #313131;
+}
+
+h5 {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 250px;
+  border: 0px;
+  width: 25%;
+  font-size: 32px;
+  font-family: Novus-Regular;
+  color: #616161;
+}
+
+a:link h5 {
+  color: #616161;
+}
+
+a:visited h5 {
+  color: #616161;
+}
+
+a:hover h5 {
+  color: #ab68e3;
+  text-decoration: none;
+}
+
+a:active h5 {
+  color: #616161;
+}
+
+.types p {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+  padding-left: 250px;
+  border: 0px;
+  font-size: 18px;
+  font-family: Novus-Light;
+}
+
+#warning-signs {
+  width: 100%;
+  height: 1000px;
+  background-color: #19181A;
+}
+
+#warning-signs h4 {
+  color: #905bbd;
+  padding-top: 100px;
+}
+
+#warning-signs p {
+  background-color: #313131;
+  color: #dfdae3;
+  padding: 15px;
+  border-radius: 5px;
+  width: 85%;
+  font-size: 24px;
+  font-family: Novus-Light;
+}
+
+#footer {
+  width: 100%;
+  height: 150px;
+  background-color: #19181A;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #e1e6e2;
+  position: relative;
+  display: block;
+}
+
+#footer h3 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 0px;
+  font-family: Novus-Bold;
+  font-size: 20px;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 2px;
+  border: 0px;
+  font-family: Novus-Light;
+  font-size: 16px;
+}
